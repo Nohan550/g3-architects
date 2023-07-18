@@ -228,13 +228,25 @@ margin-right: 150px;
     header{
         padding: 50px;
     }
-    nav,.team,.Features{
+    
+    nav,.team,.Features,.facts-container{
         flex-direction: column;
     }
-    .team{
+    .team,.facts{
         padding: 0;
         text-align: center;
         margin-top: 50px;
     }
+    
+   .facts-des{
+    padding-left: 130px;
+   }
+   .facts-container{
+    padding-left: 300px;
+   }
+    
+    
+        
+    
     
 }
